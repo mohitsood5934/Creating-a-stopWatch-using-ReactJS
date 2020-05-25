@@ -1,0 +1,67 @@
+body {
+    background:cornsilk;
+  }
+  .main{
+    background: transparent;
+    max-width: 800px;
+    width: 90%;
+    height: 700px;
+    margin: 30px auto;
+  }
+  .timer-holder {
+    width: 100%;
+    background:green;
+    margin: 30px auto;
+    position: relative;
+  }
+  .timer{
+    padding: 60px 0px;
+    text-align: center;
+  }
+  .timer span{
+    background:black;
+    color: #fff;
+    display: inline-block;
+    font-family: monospace;
+    font-size: 22px;
+    padding: 20px;
+    border-radius: 5px;
+    width: 70px;
+  }
+  .timer .timer-btn {
+    background: #fff;
+    margin-top: 30px;
+    margin-left: 5px;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    width: 150px;
+  }
+  .timer .timer-btn-red{
+    border: 2px solid #C85454;
+    color:red;
+  }
+  .timer .timer-btn-yel{
+    border: 2px solid #FFC900;
+    color: #FFC900;
+  }
+  
+  .timer .timer-btn-gre{
+    border: 2px solid #00ABA9;
+    color: green;
+  }
+  .timer .timer-btn-red:hover {
+    background: #C85454;
+    border: 2px solid #C85454;
+    color: #fff;
+  }
+  .timer .timer-btn-yel:hover {
+    background: #FFC900;
+    border: 2px solid #FFC900;
+    color: #fff;
+  }
+  .timer .timer-btn-gre:hover {
+    background: #00ABA9;
+    border: 2px solid #00ABA9;
+    color: #fff;
+  }
