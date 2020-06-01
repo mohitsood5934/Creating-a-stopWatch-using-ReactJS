@@ -53,6 +53,7 @@ const App = () => {
         <h1>Assignment - Stop Watch</h1>
           <Timer time={time}></Timer><br></br>
           <TimerHandler status={status} resume={resumeTimer} reset={resetTimer} stop={stopTimer} start={startTimer}></TimerHandler>
+          <h2>History</h2>
         </div>
       </div>
     </div>
